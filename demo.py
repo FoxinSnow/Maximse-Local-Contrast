@@ -15,6 +15,8 @@ def demo():
 
     x1 = 100*(x - np.min(x))/(np.max(x) - np.min(x))
     plt.plot(x1, color = "red")
+    #plt.show()
+    
     x2 = maxContrast.max_contrast(x1, 0, 100)
     plt.plot(x2, "blue")
      
