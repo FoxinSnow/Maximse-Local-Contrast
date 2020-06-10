@@ -1,7 +1,5 @@
 # Local-Contrast-Maxmize
 
-![](https://img.shields.io/apm/l/vim-mode.svg)
-
 This code is used for locally contrast of a signal.\
 \
 For every fringe of the signal, their peaks is increased to a max value, and their valleys is decerased to a min value.\
